@@ -1,0 +1,54 @@
+
+/*phone*/
+@media(max-width: 768px)
+{
+	.navbar-nav > li > a
+	{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center; 
+	}
+	.subscribe .form-control
+	{
+		margin:20px auto;
+	}
+	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
+	{
+		max-height: none;
+	}
+	.testimoinls .carousel-indicators li img
+	{
+		width: 75px;
+		height: 75px;
+	}
+	.testimoinls .carousel-indicators li
+	{
+		width: 75px;
+		height: 75px;
+	}
+}
+
+/*small screen*/
+
+@media(min-width: 769px )and (max-width: 991px)
+{
+
+}
+
+
+/*midum*/
+@media(min-width: 992px )and (max-width: 1199px)
+{
+	h1
+	{
+		font-size: 100px;
+	}
+}
+
+
+/*large*/
+
+@media(min-width: 1200px)
+{
+
+}
